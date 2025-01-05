@@ -367,9 +367,6 @@ export default function FullWidthTabs() {
         </div>
       )}
     </TabPanel>
-  </SwiperSlide>
-
-  <SwiperSlide>
     <TabPanel value={value} index={1} dir={theme.direction}>
       <div className="container mx-auto flex justify-center items-center overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
@@ -405,9 +402,6 @@ export default function FullWidthTabs() {
         </div>
       )}
     </TabPanel>
-  </SwiperSlide>
-
-  <SwiperSlide>
     <TabPanel value={value} index={2} dir={theme.direction}>
       <div className="container mx-auto flex justify-center items-center overflow-hidden pb-[5%]">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:gap-8 gap-5">
@@ -439,6 +433,7 @@ export default function FullWidthTabs() {
       </div>
     </TabPanel>
   </SwiperSlide>
+
 </Swiper>
       </Box>
     </div>

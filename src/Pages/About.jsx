@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 
 // Memoized Components
 const Header = memo(() => (
-  <div className="text-center lg:mb-8 mb-2 px-[5%]">
+  <div className="text-center lg:mb-8 mb-2 px-[5%] ">
     <div className="inline-block relative group">
       <h2
         className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]"
@@ -206,7 +206,7 @@ const AboutPage = () => {
 
   return (
     <div
-      className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0"
+      className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm-mt-0  pt-[5em]"
       id="About"
     >
       <Header />
@@ -241,7 +241,7 @@ const AboutPage = () => {
               application
             </p>
 
-            <div className="flex sm:flex-col lg:flex-row sm:items-center lg:items-start lg:gap-5 sm:gap-5 lg:px-0 w-full sm:justify-center">
+            <div className="flex sm:flex-col lg:flex-row sm:items-center lg:items-start lg:gap-5 sm:gap-5 sm:justify-center gap-5 sm:w-125 w-[20em] mx-auto lg:w-full">
               <a
                 className="w-[25em] lg:justify-start sm:flex sm:justify-center sm:items-center"
                 href="downloads/cv.pdf"

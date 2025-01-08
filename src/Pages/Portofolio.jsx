@@ -156,7 +156,7 @@ export default function FullWidthTabs() {
 
       const certificateData = certificateSnapshot.docs.map((doc) => doc.data());
 
-      setProjects(projectData.reverse());
+      setProjects(projectData);
       setCertificates(certificateData);
 
       // Store in localStorage

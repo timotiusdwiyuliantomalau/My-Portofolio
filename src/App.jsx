@@ -12,6 +12,7 @@ import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
+  
   return (
     <>
       <AnimatePresence mode="wait">
@@ -24,7 +25,6 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
         <>
           <Navbar />
           <AnimatedBackground />
-          <iframe	style="width: 400px; height: 600px;" src="https://app.fastbots.ai/embed/cm6iza0uw190asvk27hbvutfa"></iframe>
           <Home />
           <About />
           <Portofolio />

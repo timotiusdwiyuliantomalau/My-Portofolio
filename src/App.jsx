@@ -24,6 +24,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
         <>
           <Navbar />
           <AnimatedBackground />
+          <iframe	style="width: 400px; height: 600px;" src="https://app.fastbots.ai/embed/cm6iza0uw190asvk27hbvutfa"></iframe>
           <Home />
           <About />
           <Portofolio />

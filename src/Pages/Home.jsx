@@ -10,7 +10,6 @@ import {
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Chatbot from "../components/Chatbot";
 
 // Memoized Components
 const StatusBadge = memo(() => (

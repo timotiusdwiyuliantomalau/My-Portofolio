@@ -236,9 +236,9 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              a Fresh Graduate from University of Semarang State. I have a
-              passion for creating innovative and user-friendly mobile and web
-              application
+              A Fullstack developer who is constantly evolving and following technology trends. A graduate of
+information technology engineering, responsible person and have a strong determination to
+develop. I am ready to take my career to the next level and achieve my dreams
             </p>
 
             <div className="flex sm:flex-col lg:flex-row sm:items-center lg:items-start lg:gap-5 sm:gap-5 sm:justify-center gap-5 sm:w-125 w-[20em] mx-auto lg:w-full">
@@ -273,13 +273,13 @@ const AboutPage = () => {
           <ProfileImage />
         </div>
 
-        <a href="#Portofolio">
+        {/* <a href="#Portofolio">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 cursor-pointer">
             {statsData.map((stat) => (
               <StatCard key={stat.label} {...stat} />
             ))}
           </div>
-        </a>
+        </a> */}
       </div>
 
       <style jsx>{`

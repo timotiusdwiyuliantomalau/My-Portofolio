@@ -10,6 +10,8 @@ import ContactPage from "./Pages/Contact";
 import ProjectDetails from "./components/ProjectDetail";
 import WelcomeScreen from "./Pages/WelcomeScreen";
 import { AnimatePresence } from 'framer-motion';
+import Experience from "./Pages/Experience";
+import Motivation from "./Pages/Motivation";
 
 const LandingPage = ({ showWelcome, setShowWelcome }) => {
   
@@ -27,6 +29,8 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
           <AnimatedBackground />
           <Home />
           <About />
+          <Experience/>
+          <Motivation/>
           <Portofolio />
           <ContactPage />
           <footer>
